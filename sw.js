@@ -1,5 +1,5 @@
 self.addEventListener('install', (event) =>{
-    console.log('SW: Intall');
+    console.log('SW: Intall with pages');
     const promiseCache = caches.open('appShell').then((cache)=>{
         return cache.addAll(
             [
@@ -15,8 +15,8 @@ self.addEventListener('install', (event) =>{
                 '/Calculadora/pages/division.html',
                 '/Calculadora/pages/multiplicacion.html',
                 '/Calculadora/pages/resta.html',
-                'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js',
-                 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css',
+                'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css',
+                'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js',
             ]
         );
     });
