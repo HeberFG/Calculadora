@@ -2,13 +2,13 @@ self.addEventListener('install', (event) =>{
     console.log('SW: Intall');
     caches.open('appShell').then((cache)=>{
         cache.addAll([
-            '/',
-            '/index.html',
-            '/css/styles.css',
-            '/images/user-60.png',
-            '/images/dog2.png',
-            '/js/app.js',
-            '/js/calculadora.js',
+            '/Calculadora/',
+            '/Calculadora/index.html',
+            '/Calculadora/css/styles.css',
+            '/Calculadora/images/user-60.png',
+            '/Calculadora/images/dog2.png',
+            '/Calculadora/js/app.js',
+            '/Calculadora/js/calculadora.js',
         ])
     })
 });
