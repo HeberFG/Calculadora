@@ -3,7 +3,6 @@ self.addEventListener('install', (event) =>{
     const promiseCache = caches.open('appShell').then((cache)=>{
         return cache.addAll(
             [
-                '/',
                 '/Calculadora/',
                 '/Calculadora/index.html',
                 '/Calculadora/css/style.css',
