@@ -11,6 +11,10 @@ self.addEventListener('install', (event) =>{
                 '/Calculadora/images/dog2.png',
                 '/Calculadora/js/app.js',
                 '/Calculadora/js/calculadora.js',
+                '/Calculadora/pages/suma.html',
+                '/Calculadora/pages/division.html',
+                '/Calculadora/pages/multiplicacion.html',
+                '/Calculadora/pages/resta.html',
                 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js',
                  'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css',
             ]
