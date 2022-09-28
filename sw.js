@@ -24,6 +24,6 @@ self.addEventListener('install', (event) =>{
 });
 
 self.addEventListener('fetch', event =>{
-    //const respCache = caches.match(event.request)
-    //event.respondWith(respCache);
+    const respCache = caches.match(event.request)
+    event.respondWith(respCache);
 });
